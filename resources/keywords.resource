@@ -12,3 +12,6 @@ Click Add Elements Button
 Verify Delete Button Presence
     Wait Until Element Is Visible    xpath=//button[text()='Delete']    10
     Element Should Be Visible    xpath=//button[text()='Delete']
+    
+Click Delete Button
+    Click Button    xpath=//button[text()='Delete']
