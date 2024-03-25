@@ -1,0 +1,20 @@
+# Built artifacts
+output.xml
+report.html
+log.html
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__
+
+# Environment variables
+.env
+.venv
+
+.idea/
+.git/
+
+# All hidden files (use with caution)
+# .*
+# **/.*
